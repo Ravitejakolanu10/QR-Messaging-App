@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <style name="MessageTextStyle">
+        <item name="android:textColor">#FFFFFF</item> <!-- White text color -->
+        <item name="android:textSize">18sp</item> <!-- Text size -->
+        <item name="android:background">#3F51B5</item> <!-- Background color for the text field -->
+    </style>
+
+    <!-- Define theme styles for the QR Code (colors) -->
+    <style name="QRCodeStyle">
+        <item name="android:colorPrimary">#FF5722</item> <!-- QR Code foreground color -->
+        <item name="android:colorSecondary">#4CAF50</item> <!-- QR Code background color -->
+    </style>
+    <string-array name="friends_list">
+        <item>Anyone</item>
+        <item>User1</item>
+        <item>User2</item>
+        <item>User3</item>
+        <!-- Add other users here -->
+    </string-array>
+</resources>
